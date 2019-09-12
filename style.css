@@ -6,22 +6,21 @@ body {
   margin: 0;
   line-height: 1.4;
   background: #E1E1E1;
-  font-family: 'Poiret One', cursive;
-  font-family: 'adam', sans-serif;
 }
 
 h2 {
-  font-size: 360%;
+  font-size: 340%;
   text-align: center;
-  margin-top: 15%;
-font-family: 'Montserrat Subrayada', sans-serif;
+  margin-top: 20%;
+  font-family: 'Montserrat Subrayada', sans-serif;
 }
 .p1{
   text-align: center;
   margin-top: 10%;
+  font-family: 'Red Hat Text', sans-serif;
 }
 video {
-  margin-top: 20%;
+  margin-top: 30%;
   width:60%;
   margin-left: auto;
   margin-right: auto;
@@ -105,6 +104,7 @@ video {
   transition-delay: 0.65s;
 }
 .window .header ul.menu {
+  font-family: 'Red Hat Text', sans-serif;
   position: relative;
   display: block;
   padding: 0px 48px 0;
@@ -145,7 +145,6 @@ video {
   display: block;
   position: relative;
   color: #FFF;
-  font-family: 'adam', sans-serif;
   font-weight: 100;
   text-decoration: none;
   font-size: 22px;
@@ -207,7 +206,6 @@ video {
   transition-delay: 0.3s;
 }
 .window .content {
-  font-family: "Ek Mukta", sans-serif;
   padding: 67px 4% 0;
   text-align: justify;
   overflow: scroll;
