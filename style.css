@@ -8,11 +8,20 @@ body {
   background: #E1E1E1;
 }
 
-h2 {
-  font-size: 340%;
+h1 {
   text-align: center;
-  margin-top: 20%;
+  margin-top: 10%;
   font-family: 'Montserrat Subrayada', sans-serif;
+}
+@media screen and (min-width: 601px) {
+  div.example {
+    font-size: 80px;
+  }
+}
+@media screen and (max-width: 600px) {
+  div.example {
+    font-size: 30px;
+  }
 }
 .p1{
   text-align: center;
