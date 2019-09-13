@@ -56,6 +56,13 @@ h1 {
   margin-right: 5%;
   filter: drop-shadow(10px 10px 10px #c1c1c1);
 }
+.jingle {
+  margin-top: 10%;
+  width: 36%;
+  margin-left: 7%;
+  margin-right: 5%;
+  filter: drop-shadow(10px 10px 10px #c1c1c1);
+}
 
 .window .header {
   position: fixed;
@@ -307,4 +314,18 @@ h1 {
   .window .header {
     position: fixed;
   }
+}
+
+footer {
+  background-color: #303030;
+}
+footer p {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  margin-left: 10%;
+}
+footer h6 {
+  color: white;
+  margin-left: 20%;
 }
