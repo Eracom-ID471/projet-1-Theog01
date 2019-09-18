@@ -2,10 +2,12 @@
 font-family: 'Montserrat Subrayada', sans-serif;
 font-family: 'Red Hat Text', sans-serif;
 
-body {
+html, body {
   margin: 0;
-  line-height: 1.4;
+  padding: 0;
+  line-height: 150%;
   background: #E1E1E1;
+  scroll-behavior:smooth;
 }
 
 h1 {
@@ -30,11 +32,50 @@ h1 {
   color: #303030;
 }
 
+
+.row{ }
+
+.row .col-4{
+  width: 33%;
+  float: left;
+}
+
+.row .col-4 .videoWrapper{
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 177.7%; /* 16:9 */
+	padding-top: 25px;
+  height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 37%;
+	left: 0;
+	width: 70%;
+	height: 63%;
+}
+
 .docks {
+  width: 281.5px;
   margin-top: 26%;
   margin-left: 6.1%;
   margin-right: 5%;
-  filter: drop-shadow(10px 10px 10px #c1c1c1);
+}
+.docks1 {
+  max-width: 100%;
+  height: auto;
+}
+.jingle {
+  margin-top: 10%;
+  width: 40%;
+  margin-left: 7%;
+  margin-left: 6.5%;
 }
 .workshop {
   margin-top: 10%;
@@ -43,14 +84,6 @@ h1 {
   margin-right: 5%;
   filter: drop-shadow(10px 10px 10px #c1c1c1);
 }
-.jingle {
-  margin-top: 10%;
-  width: 36%;
-  margin-left: 7%;
-  margin-right: 5%;
-  filter: drop-shadow(10px 10px 10px #c1c1c1);
-}
-
 .window .header {
   position: fixed;
   display: block;
@@ -303,16 +336,14 @@ h1 {
   }
 }
 
-footer {
-  background-color: #303030;
+footer{
+text-align: center;
+background-color: #303030;
 }
+
 footer p {
-  text-align: center;
-  color: white;
-  font-size: 20px;
-  margin-left: 10%;
+font-size: 15px;
 }
-footer h6 {
-  color: white;
-  margin-left: 20%;
+.text1{
+  text-align: center;
 }
